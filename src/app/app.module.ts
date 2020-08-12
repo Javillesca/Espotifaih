@@ -10,6 +10,9 @@ import { ArtistComponent } from './components/artist/artist.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { CardComponent } from './components/shared/card/card.component';
 
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { LoadingComponent } from './components/shared/loading/loading.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +20,9 @@ import { CardComponent } from './components/shared/card/card.component';
     SearchComponent,
     ArtistComponent,
     NavbarComponent,
-    CardComponent
+    CardComponent,
+    NoimagePipe,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

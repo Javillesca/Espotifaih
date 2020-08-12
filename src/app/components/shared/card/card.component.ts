@@ -6,8 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
+  @Input() newReleases: any[];
+
   constructor() { }
-  @Input() newRelease: any;
 
   ngOnInit(): void {
   }
